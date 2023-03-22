@@ -1,0 +1,262 @@
+<%- include('includes/head') %>
+
+<body>
+    <div id="page" class="site page-category">
+        <div id="page" class="site">
+            <aside class="site-off desktop-hide">
+                <div class="off-canvas">
+                    <div class="canvas-head">
+                        <div class="logo">
+                            <a href="/"><span class="circle"></span>GOG</a>
+                        </div>
+                        <a href="#" class="t-close flexcenter"><i class="fa fa-times" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="departments"></div>
+                    <nav></nav>
+                    <div class="thetop-nav"></div>
+                </div>
+            </aside>
+            <header>
+                <%- include('includes/header_top'); %>
+                    <%- include('includes/header_nav'); %>
+                        <%- include('includes/header_main'); %>
+            </header>
+
+        <main>
+
+            <div class="single-cart">
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="breadcrumb">
+                            <ul class="flexitem">
+                                <li><a href="#">Home</a></li>
+                                <li>Cart</li>
+                            </ul>
+                        </div>
+                        <div class="page-title">
+                            <h1>Shopping cart</h1>
+                        </div>
+
+                        <div class="products one cart" id="#totalss">
+                            <div class="flexwrap">
+                                <form action="" class="form-cart" id="tablesss">
+                                    <div class="item">
+                                        <table id="cart-table">
+                                            <thead>
+                                                <tr>
+                                                    <th> Item </th>
+                                                    <th>Price</th>
+                                                    <th>Qty</th>
+                                                    <th>SubTotal</th>
+                                                    <th></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="flexitem">
+                                                        <div class="thumbnail object-cover">
+                                                            <a href="#">
+                                                                <img src="images/asus/las20.avif" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="content"><strong><a href="#">ASUS TUF Gaming A15</a></strong>
+                                                            <P>Color : BLACK</P>
+                                                        </div>
+                                                    </td>
+                                                    <td>INR.98000</td>
+                                                    <td>
+                                                        <div class="qty-control flexitem">
+                                                            <button class="minus">-</button>
+                                                            <input type="text" value="2" min="1">
+                                                            <button class="plus">+</button>
+                                                        </div>
+                                                    </td>
+                                                    <td>INR.196000</td>
+                                                    <td><a href="#" class="item-remove"><i class="fa fa-times"
+                                                                aria-hidden="true"></i></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="flexitem">
+                                                        <div class="thumbnail object-cover">
+                                                            <a href="#">
+                                                                <img src="images/mobiles/apple/ma10.webp" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="content"><strong>
+                                                                <a href="#">iPhone 14 Pro Max</a></strong>
+                                                            <P>Color : Deep Purple</P>
+                                                        </div>
+                                                    </td>
+                                                    <td>INR.137990</td>
+                                                    <td>
+                                                        <div class="qty-control flexitem">
+                                                            <button class="minus">-</button>
+                                                            <input type="text" value="2" min="1">
+                                                            <button class="plus">+</button>
+                                                        </div>
+                                                    </td>
+                                                    <td>INR.275980</td>
+                                                    <td><a href="#" class="item-remove"><i class="fa fa-times"
+                                                                aria-hidden="true"></i></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="flexitem">
+                                                        <div class="thumbnail object-cover">
+                                                            <a href="#">
+                                                                <img src="images/asus/las20.avif" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="content"><strong><a href="#">ASUS TUF Gaming A15</a></strong>
+                                                            <P>Color : BLACK</P>
+                                                        </div>
+                                                    </td>
+                                                    <td>INR.98000</td>
+                                                    <td>
+                                                        <div class="qty-control flexitem">
+                                                            <button class="minus">-</button>
+                                                            <input type="text" value="2" min="1">
+                                                            <button class="plus">+</button>
+
+                                                        </div>
+                                                    </td>
+                                                    <td>INR.196000</td>
+                                                    <td><a href="#" class="item-remove"><i class="fa fa-times"
+                                                                aria-hidden="true"></i></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="flexitem">
+                                                        <div class="thumbnail object-cover">
+                                                            <a href="#">
+                                                                <img src="images/mobiles/apple/ma10.webp" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="content"><strong>
+                                                                <a href="#">iPhone 14 Pro Max</a></strong>
+                                                            <P>Color : Deep Purple</P>
+                                                        </div>
+                                                    </td>
+                                                    <td>INR.137990</td>
+                                                    <td>
+                                                        <div class="qty-control flexitem">
+                                                            <button class="minus">-</button>
+                                                            <input type="text" value="2" min="1">
+                                                            <button class="plus">+</button>
+
+                                                        </div>
+                                                    </td>
+                                                    <td>INR.275980</td>
+                                                    <td><a href="#" class="item-remove"><i class="fa fa-times"
+                                                                aria-hidden="true"></i></a></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+
+                                    </div>
+                                </form>
+                                <div class="cart-summary styled" >
+                                    <div class="item">
+                                        <div class="coupon">
+                                            <input type="text" placeholder="enter your coupon">
+                                            <button id="apply">Apply</button>
+                                        </div>
+                                        <div class="shipping-rate collapse">
+                                            <div class="has-child expand"><a href="#" class="icon-small">
+                                                    Estimate shipping and Tax</a>
+                                                <div class="content">
+                                                    <div class="countries">
+                                                        <form action="">
+                                                            <label for="country">Country</label>
+                                                            <select name="country" id="country">
+                                                                <option value=""></option>
+                                                                <option value="1">UK</option>
+                                                                <option value="2">Australia</option>
+                                                                <option value="3">China</option>
+                                                                <option value="4" selected="selected">India
+                                                                </option>
+                                                                <option value="5">Others</option>
+                                                            </select>
+                                                        </form>
+                                                    </div>
+                                                    <div class="states">
+                                                        <form action="">
+                                                            <label for="state">State/province</label>
+                                                            <select name="state" id="country">
+                                                                <option value="">Select a region, state or provience
+                                                                </option>
+                                                                <option value="1">Andhra Pradesh</option>
+                                                                <option value="2">Tamilnadu</option>
+                                                                <option value="3">Telangana</option>
+                                                                <option value="4">Delhi</option>
+                                                                <option value="5">Maharastra</option>
+                                                                <option value="6">Others</option>
+                                                            </select>
+                                                        </form>
+                                                    </div>
+                                                    <div class="postal-code">
+                                                        <form action="">
+                                                            <label for="postal">Zip/postal Code</label>
+                                                            <input type="number" name="postal" id="postal">
+                                                        </form>
+                                                    </div>
+                                                    <!-- <div class="rate-options variant">
+                                                        <form action="">
+                                                            <p>
+                                                                <span>Flat :$10</span>
+                                                                <input type="radio" name="rate-option" id="flat"
+                                                                    checked>
+                                                                <label for="flat" class="circle"></label>
+
+                                                            </p>
+                                                            <p>
+                                                                <span>Flat :$0</span>
+                                                                <input type="radio" name="rate-option" id="flat"
+                                                                    checked>
+                                                                <label for="best " class="circle"></label>
+
+                                                            </p>
+                                                        </form>
+                                                    </div> -->
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="cart-total">
+                                            <table>
+                                                <tbody>
+                                                    <tr>
+                                                        <th>Subtotal</th>
+                                                        <td>INR.943960</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Discount</th>
+                                                        <td>INR.943960</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Shipping</th>
+                                                        <td>INR.0</td>
+                                                    </tr>
+                                                    <tr class="grand-total">
+                                                        <th>Total</th>
+                                                        <td>INR.849564</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <a href="/checkout" class="secondary-button">Check out </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </main>
+        <<%- include('includes/footer') %>>
+    </div>
+</body>
+
+</html>

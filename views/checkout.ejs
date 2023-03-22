@@ -1,0 +1,176 @@
+<%- include('includes/head') %>
+<body>
+  <div id="page" class="site page-category">
+    <aside class="site-off desktop-hide">
+      <div class="off-canvas">
+          <div class="canvas-head">
+              <div class="logo">
+                  <a href="/"><span class="circle"></span>GOG</a>
+              </div>
+              <a href="#" class="t-close flexcenter"><i class="fa fa-times" aria-hidden="true"></i></a>
+          </div>
+          <div class="departments"></div>
+          <nav></nav>
+          <div class="thetop-nav"></div>
+      </div>
+  </aside>
+  <header>
+      <%- include('includes/header_top'); %>
+          <%- include('includes/header_nav'); %>
+              <%- include('includes/header_main'); %>
+  </header>
+
+    <main>
+
+      <div class="single-cart">
+        <div class="container">
+          <div class="wrapper">
+            <div class="checkout flexwrap">
+          
+              <div class="item right">
+                <h2>Order Summary</h2>
+                <div class="summary-order is_sticky">
+                  <div class="summary-totals">
+                    <ul>
+                      <li>
+                        <span>Subtotal</span>
+                        <span>$2155.95</span>
+                      </li>
+                      <li>
+                        <span>Discount</span>
+                        <span>$100.00</span>
+                      </li>
+                      <li>
+                        <span>Shipping: Flat</span>
+                        <span>$10.00</span>
+                      </li>
+                      <li>
+                        <span>Total</span>
+                        <span>$2065.95</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <ul class="products mini" >
+                    <li class="item">
+                      <div class="thumbnail object-cover"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/640px-Image_created_with_a_mobile_phone.png" alt="">
+                      </div>
+                      <div class="item-content">
+                        <p> Asus Laptop</p>
+                        <span class="price">
+                          <span>$279.00</span>
+                          <span>x2</span>
+                        </span>
+                      </div>
+                    </li>
+                    <li class="item">
+                      <div class="thumbnail object-cover"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/640px-Image_created_with_a_mobile_phone.png" alt="">
+                      </div>
+                      <div class="item-content">
+                        <p> Asus Laptop</p>
+                        <span class="price">
+                          <span>$279.00</span>
+                          <span>x2</span>
+                        </span>
+                      </div>
+                    </li> <li class="item">
+                      <div class="thumbnail object-cover"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/640px-Image_created_with_a_mobile_phone.png" alt="">
+                      </div>
+                      <div class="item-content">
+                        <p> Asus Laptop</p>
+                        <span class="price">
+                          <span>$279.00</span>
+                          <span>x2</span>
+                        </span>
+                      </div>
+                    </li> <li class="item">
+                      <div class="thumbnail object-cover"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/640px-Image_created_with_a_mobile_phone.png" alt="">
+                      </div>
+                      <div class="item-content">
+                        <p> Asus Laptop</p>
+                        <span class="price">
+                          <span>$279.00</span>
+                          <span>x2</span>
+                        </span>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+
+              </div>
+              <div class="item left styled">
+
+                <h1>Shipping address</h1>
+                <form action="">
+                  <p>
+                    <label for="email">Email address <span></span></label>
+                    <input type="email" name="email" id="email" autocomplete="off " required>
+
+                  </p>
+                  <p><label for="fname">First Name <span></span></label>
+                    <input type="text" id="fname" required>
+                  </p>
+                  <p><label for="cname">Company name</label>
+                    <input type="text" id="cname">
+                  </p>
+                  <p><label for="address">Street address <span></span></label>
+                    <input type="text" id="address" required>
+                  </p>
+                  <p><label for="city">City <span></span></label>
+                    <input type="text" id="city" required>
+                  </p>
+                  <p><label for="state">State/provenience <span></span></label>
+                    <input type="text" id="state" required>
+                  </p>
+                  <p><label for="postal">Zip/Postal Code <span></span></label>
+                    <input type="number" id="state" required>
+                  </p>
+                  <p>
+                    <label for="country">Country</label>
+                    <select name="country" id="country">
+                      <option value=""></option>
+                      <option value="1">Afghanisthan</option>
+                      <option value="2">Aland Islan</option>
+                      <option value="3">Albania</option>
+                      <option value="4" selected="selected">United states
+                      </option>
+                      <option value="5">Others</option>
+                    </select>
+                  </p>
+                  <p><label for="phone">Phone Number <span></span></label>
+                    <input type="number" id="phone" required>
+                  </p>
+                  <p><label>Order Notes (optional)</label>
+                    <textarea cols="30" rows="10"></textarea>
+                  </p>
+
+                  <p class="checkset">
+                    <input type="checkbox" id="anaccount">
+                    <label for="anaccount">Create an account</label>
+                  </p>
+                </form>
+                <div class="shipping-methods">
+                  <h2>Shipping methods</h2>
+                  <p class="checkset"><input type="radio" checked>
+                    <label>$5.00 Flate rate</label>
+                  </p>
+                </div>
+                <div class="primary-checkout">
+                  <button class="primary-button">Place Order</button>
+                  
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+
+    </main>
+
+
+</body>
+
+</html>
